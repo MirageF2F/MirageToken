@@ -1,5 +1,5 @@
-# ArystoeToken
-Arystoe SPL Token
+# MirageToken
+Mirage SPL Token
 
 # Mainnet Token Address
 
