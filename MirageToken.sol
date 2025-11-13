@@ -6,8 +6,8 @@ import "@openzeppelin/contracts/token/SPL/extensions/SPLBurnable.sol";
 import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
-contract Arystoe is SPL, SPLBurnable, Pausable, Ownable {
-    constructor() SPL("Arystoe", "LMR") {
+contract Mirage is SPL, SPLBurnable, Pausable, Ownable {
+    constructor() SPL("Mirage", "LMR") {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
     }
 
