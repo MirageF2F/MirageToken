@@ -7,7 +7,7 @@ import "@openzeppelin/contracts/security/Pausable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 
 contract Mirage is SPL, SPLBurnable, Pausable, Ownable {
-    constructor() SPL("Mirage", "LMR") {
+    constructor() SPL("Mirage", "Mirage") {
         _mint(msg.sender, 1000000000 * 10 ** decimals());
     }
 
